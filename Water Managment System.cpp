@@ -37,13 +37,13 @@ void addvillagedata(){
         cout << "Enter Village name:";
         cin >> village[totalVillages];
 
-        cout << "Enter Water Tank Capacity:";
+        cout << "Enter Water Tank Capacity(in L):";
         cin >> tankcapacity[totalVillages];
 
-        cout << "Enter Current Water Tank Capacity:";
+        cout << "Enter Current Water Tank Capacity(in L):";
         cin >> currentwater[totalVillages];
 
-        cout << "Enter Daily Usage of water:";
+        cout << "Enter Daily Usage of water(in L):";
         cin >> dailyusage[totalVillages];
 
         cout << "Enter  Latitude of Village:";
@@ -67,9 +67,9 @@ void addvillagedata(){
         for(int i=0;i<totalVillages;i++){
            if(village[i]==name){
             cout << "Village name:" << village[i] << endl;
-           cout << "Water Tank Capacity is:" << tankcapacity[i] << endl;
-           cout << "Current Water Tank Capacity is:" << currentwater[i] << endl;
-           cout << "Daily Usage of Villagers is:" << dailyusage[i] << endl;
+           cout << "Water Tank Capacity is(in L):" << tankcapacity[i] << endl;
+           cout << "Current Water Tank Capacity is(in L):" << currentwater[i] << endl;
+           cout << "Daily Usage of Villagers is(in L):" << dailyusage[i] << endl;
 
        int daysleft = currentwater[i]/dailyusage[i];
       bool leak = false;
