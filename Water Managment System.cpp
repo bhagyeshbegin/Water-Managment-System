@@ -22,7 +22,7 @@ void openVillageOnMap(double lat, double lon) {
 
 int menu(){
     int choice;
-    cout << "--- Water Management System ---" << endl;
+    cout << "--- JalRaskhak System ---" << endl;
     cout << "1. Add Village Data" << endl;
     cout << "2. Get Village Data" << endl;
     cout << "3. Display All Villages" << endl;
